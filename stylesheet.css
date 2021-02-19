@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 170px 0 80px 0;
+    background-image: url(https://hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-indonesia.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 1;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 10px; color: #686de0;
+  }
+  
+  .top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px; color: #063d18ad;
+    ;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 6px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .signup {
+    background-color: #A3CB38;
+  }
+  
+  .google {
+    background-color: #e84118;
+    margin-right: 10px;
+  }
+
+  .facebook {
+    background-color: #0652DD;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #12CBC4;
+  }
+
+
+.par-wrapper {
+	height: 2200px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.pariwisata {
+  float: left;
+  width: 50%;
+  background-color:#fff;
+  padding-bottom: 20px;
+}
+
+.par-icon {
+  position: relative;
+  text-align: center;
+  color:#5f5d60;
+}
+
+.par
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+  }
+
+  .fa { margin-right: 5px; }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #c7ecee;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 5px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: #95afc0;
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: #c7ecee;
+  }
+  
+  .header-right a { line-height: 65px; padding-left: 25px;
+  padding-right: 25px; color: white; display: block; 
+}
+
+.pesan {
+	background-color: #3b5998;
+}
+
+.day {
+	background-color: #0652DD;
+	padding: 6px 12px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+.site-footer {
+    background-color: #c7ecee;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
